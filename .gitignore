@@ -1,0 +1,147 @@
+
+OVERWRITE.COMPILE.mk
+.stuff/
+.CUDA/
+.private/
+.playground/
+.legacy/
+.vs/
+.idea/
+
+# Eclipse project settings
+*cproject
+*project
+*settings/
+
+# output of cpplint.py
+*OUTPUT_CPPLINT.txt
+
+# Doxygen
+Doxyfile
+Dox
+
+
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Output from compiler tracer
+*.json 
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.elf
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+
+# Latex Files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.pdf
+*.tex
+*.toc
+
+# Python precompiled
+*.pyc
+
+# general work files  
+*.desktop
+*.gz
+*.ini
+
+# VSCode and Visual Studio project files 
+*.mvs
+*.opensdf
+*.sdf
+*.sln
+.vscode/*
+*.vcxproj
+*.vcxproj.filters
+
+# Editor files and backups
+*.bak
+*.backup
+*.kate-swp
+*~
+
+# callgrind and cachegrind output, stackdump
+callgrind.out.*
+cachegrind.out.*
+*.stackdump
+
+# Mesh2D File Format
+*.mesh2d
+
+# VTK output
+*.vtk
+*.vti
+*.vtp
+*.vtr
+*.vts
+*.vtu
+*.pvti
+*.pvtp
+*.pvtr
+*.pvts
+*.pvtu
+
+# SVG output
+*.svg
+
+# other files 
+*.zip 
+*.tiff 
+*.jpg 
+*.jpeg 
+*.png 
+*.webp 
+
+
+# Temporary file
+*.temp
+
+/Default/
