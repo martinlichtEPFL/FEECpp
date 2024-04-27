@@ -1,0 +1,1 @@
+include ../tests.template.mk
